@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        var ws = null;
+        var k = 1;
+        var sI = null;
+        function Start() {
+            var out = document.getElementById('outString');
+            ws = new WebSocket(`ws://${location.hostname}:${location.port}/tws`);
+            ws.onopen = () => {
+                out.innerHTML += 'Connection from client\n';
+                console.log('send : Connection from client');
+                ws.send('Connection from client');
+            };
+            ws.onerror = (e) => { console.log(`error: ${e.message}`); }
+            ws.onclose = () => {
+                out.innerHTML += 'CLOSE\n';
+                console.log('CLOSE');
+            }
+            ws.onmessage = (e) => {
+                out.innerHTML += `message:${e.data}\n`;
+                console.log(`message:${e.data}`);
+            }
+            sI = setInterval(() => ws.send('send from client ' + (k++)), 500)
+        }
+        function Stop() { clearInterval(sI); ws.close() }
+    </script>
+  <h1>WebSockets</h1>
+    <input type="button" onclick="Stop()" value="Stop" />
+    <input type="button" onclick="Start()" style="margin:00px 0px 0px 100px"  value="Start" /></br>
+    <textarea id="outString" rows="20" cols="25" style="text-align: center" >
+
+</textarea>
+    
+</body>
+</html>

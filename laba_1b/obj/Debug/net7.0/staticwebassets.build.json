@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "67Q0ZK/cujQ6IqRGb8j8hXFikpjiV3cpSy1d4xzcTSQ=",
+  "Source": "laba_1b",
+  "BasePath": "_content/laba_1b",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "laba_1b\\wwwroot",
+      "Source": "laba_1b",
+      "ContentRoot": "D:\\3kurs\\sem_2\\PIS\\laba_1b\\wwwroot\\",
+      "BasePath": "_content/laba_1b",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\3kurs\\sem_2\\PIS\\laba_1b\\wwwroot\\index.html",
+      "SourceId": "laba_1b",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\3kurs\\sem_2\\PIS\\laba_1b\\wwwroot\\",
+      "BasePath": "_content/laba_1b",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

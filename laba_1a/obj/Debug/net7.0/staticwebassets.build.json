@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "sDJPRi6mT5hwKb03fvh7oUvK2Uzqiig4tK+RWfZyybQ=",
+  "Source": "laba_1a",
+  "BasePath": "_content/laba_1a",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "laba_1a\\wwwroot",
+      "Source": "laba_1a",
+      "ContentRoot": "D:\\3kurs\\sem_2\\PIS\\laba_1a\\wwwroot\\",
+      "BasePath": "_content/laba_1a",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\3kurs\\sem_2\\PIS\\laba_1a\\wwwroot\\formMylt.html",
+      "SourceId": "laba_1a",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\3kurs\\sem_2\\PIS\\laba_1a\\wwwroot\\",
+      "BasePath": "_content/laba_1a",
+      "RelativePath": "formMylt.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\formMylt.html"
+    },
+    {
+      "Identity": "D:\\3kurs\\sem_2\\PIS\\laba_1a\\wwwroot\\index.html",
+      "SourceId": "laba_1a",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\3kurs\\sem_2\\PIS\\laba_1a\\wwwroot\\",
+      "BasePath": "_content/laba_1a",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\3kurs\\sem_2\\PIS\\laba_1a\\wwwroot\\XMLMult.html",
+      "SourceId": "laba_1a",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\3kurs\\sem_2\\PIS\\laba_1a\\wwwroot\\",
+      "BasePath": "_content/laba_1a",
+      "RelativePath": "XMLMult.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\XMLMult.html"
+    }
+  ]
+}

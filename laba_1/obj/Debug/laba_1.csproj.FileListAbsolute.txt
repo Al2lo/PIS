@@ -1,0 +1,15 @@
+D:\3kurs\sem_2\PIS\laba_1\bin\Debug\laba_1.exe.config
+D:\3kurs\sem_2\PIS\laba_1\bin\Debug\laba_1.exe
+D:\3kurs\sem_2\PIS\laba_1\bin\Debug\laba_1.pdb
+D:\3kurs\sem_2\PIS\laba_1\obj\Debug\laba_1.csproj.AssemblyReference.cache
+D:\3kurs\sem_2\PIS\laba_1\obj\Debug\MainWindow.g.cs
+D:\3kurs\sem_2\PIS\laba_1\obj\Debug\App.g.cs
+D:\3kurs\sem_2\PIS\laba_1\obj\Debug\laba_1_MarkupCompile.cache
+D:\3kurs\sem_2\PIS\laba_1\obj\Debug\laba_1_MarkupCompile.lref
+D:\3kurs\sem_2\PIS\laba_1\obj\Debug\MainWindow.baml
+D:\3kurs\sem_2\PIS\laba_1\obj\Debug\laba_1.g.resources
+D:\3kurs\sem_2\PIS\laba_1\obj\Debug\laba_1.Properties.Resources.resources
+D:\3kurs\sem_2\PIS\laba_1\obj\Debug\laba_1.csproj.GenerateResource.cache
+D:\3kurs\sem_2\PIS\laba_1\obj\Debug\laba_1.csproj.CoreCompileInputs.cache
+D:\3kurs\sem_2\PIS\laba_1\obj\Debug\laba_1.exe
+D:\3kurs\sem_2\PIS\laba_1\obj\Debug\laba_1.pdb

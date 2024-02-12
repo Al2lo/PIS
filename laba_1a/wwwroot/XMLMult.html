@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>
+            <input type="number" value="0" id="X" />
+            <input type="number" value="0" id="Y" />
+        </p>
+    </form>
+    <button on onclick="multiple()">Get result</button>
+    <h3>Result: <span id="mult"></span></h3>
+
+    <script>
+        function multiple() {
+            const x = document.getElementById('X').value;
+            const y = document.getElementById('Y').value;
+            const data = [ x, y ];
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', '/mult', true);
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    const restText = JSON.parse(xhr.responseText);
+                    const element = document.getElementById('mult');
+                    element.textContent = restText;
+                } else {
+                    console.error('Ошибка запроса:', xhr.status);
+                }
+            }
+            xhr.send(JSON.stringify(data));
+        }
+    </script>
+</body>
+</html>
